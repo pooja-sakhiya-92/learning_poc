@@ -1,0 +1,21 @@
+# PROJECT SPECIFIC IGNORES
+
+target/
+#.gitignore
+.allure/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.attach_pid2932
+.attach_pid31148
+
+# INTELLIJ IDEA IGNORES
+*.iml
+*.ipr
+*.iws
+.idea/
+*.log
+
+.sts4-cache/
