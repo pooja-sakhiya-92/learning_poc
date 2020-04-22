@@ -1,7 +1,5 @@
 package com.freemind.creativeservices.model;
 
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,16 +16,13 @@ import java.util.Date;
 @Getter
 @Setter
 @Document
-@ApiModel("All details about user")
 public class User /*extends RepresentationModel<User>*/ {
 
     @Id
     private String userId;
     @Size(min=4)
-    @ApiModelProperty(notes = "Name should be min 4 chars")
     private String name;
     @Past
-    @ApiModelProperty(notes = "Birthdate cannot be in past")
     private Date birthDate;
 
     @Override
