@@ -64,11 +64,11 @@ public class Course {
 	}
 
 	public void init() {
-		//System.out.println("Course bean initiated");
+		System.out.println("Course bean initiated");
 	}
 
 	public void destroy() {
-		//System.out.println("Course bean destroyed");
+		System.out.println("Course bean destroyed");
 	}
 
 	@Override

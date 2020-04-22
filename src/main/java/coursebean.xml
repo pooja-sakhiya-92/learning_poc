@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
-	<bean id="coursebean_1" class="com.ga.learning.springmvc.Course" init-method="init" destroy-method="destroy" >
+	<bean id="coursebean_1" class="com.ga.learning.springmvc.Course" init-method="init" destroy-method="destroy"  >
 		<property name="courseId" value="C001"></property>
 		<property name="courseName" value="Java8"></property>
 		<property name="department" value="Java"></property>
